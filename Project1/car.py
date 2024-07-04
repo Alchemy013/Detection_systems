@@ -5,7 +5,7 @@ import cvzone
 import math
 from sort import *
 
-cap = cv2.VideoCapture("../project1/cars.mp4")
+cap = cv2.VideoCapture("/Users/alchemy/Documents/Ai_Mark1/pythonProject/Project1/cars.mp4")
 
 model = YOLO("../Yolo-Weights/yolov8l.pt")
 
